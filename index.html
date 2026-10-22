@@ -49,6 +49,10 @@
             object-fit: cover;
             padding-top: 60px;
             margin-bottom: 30px;
+            pointer-events: none;
+            user-select: none;
+            -webkit-user-drag: none;
+            -webkit-touch-callout: none;
         }
         
         .links-container {
@@ -80,7 +84,7 @@
 <body>
 
     <div class="profile">
-        <img class="avatar" src="logo.png" alt="Аватар">
+        <img class="avatar" src="logo.png" alt="Аватар" draggable="false">
     </div>
 
     <div class="links-container">
